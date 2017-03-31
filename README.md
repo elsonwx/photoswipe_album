@@ -6,7 +6,7 @@
 ```
 $ git clone https://github.com/elsonwx/photoswipe_album.git
 $ cd photoswipe_album
-$ npm install http-sever
+$ npm install http-server
 $ http-server
 ```
 ## 参考
