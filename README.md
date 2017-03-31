@@ -1,7 +1,6 @@
 # photoswipe_album
 用photoswipe制作一个相册
-按照hexo yilia主题相册，依葫芦画瓢制作的一个相册
-
+按照hexo yilia主题相册，依葫芦画瓢制作的一个相册，支持图片，视频展示
 ## 用法
 ```
 $ git clone https://github.com/elsonwx/photoswipe_album.git
@@ -15,3 +14,6 @@ $ http-server
 
 ## 效果
 ![相册效果](screenshot/album.png)
+
+## photos_data.json
+可从图床或者instagram爬虫生成此文件，用crontab自动化运行任务
