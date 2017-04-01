@@ -193,16 +193,14 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
         gallery.init();
         var $target_video;
         var startVideo = function startVideo() {
+            if($target_video) {
+                $target_video.remove();
+            }
             var item = gallery.currItem;
             if(item.hasOwnProperty('html')) {
                 item.html = item.html.replace('controls', 'controls autoplay');
                 gallery.currItem.container.innerHTML = item.html;
                 $target_video = document.querySelector('video');
-            } else {
-                if($target_video) {
-                    $target_video.remove();
-                }
-
             }
         };
         var stopVideo = function stopVideo() {
