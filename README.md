@@ -16,7 +16,7 @@ $ http-server
   - [hexo yilia主题相册](https://github.com/litten/BlogBackup/tree/master/source/photos)
 
 ## 效果
-### [demo](http://demo.elsonwx.com/photoswipe_album/) http://demo.elsonwx.com/photoswipe_album/
+http://demo.elsonwx.com/photoswipe_album/
 ![相册效果](screenshot/album.png)
 
 
